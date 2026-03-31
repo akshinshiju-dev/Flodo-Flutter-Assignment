@@ -1,0 +1,37 @@
+name: flodo_task_manager
+description: A polished Flutter Task Management App — Flodo AI Take-Home Assignment.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Local storage (web + native compatible)
+  # sqflite replaced with shared_preferences JSON storage for web compatibility
+
+  # Draft persistence
+  shared_preferences: ^2.2.3
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # Google Fonts (Inter)
+  google_fonts: ^6.2.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
